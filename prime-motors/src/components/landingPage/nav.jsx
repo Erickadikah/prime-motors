@@ -117,7 +117,7 @@ export default function LandingNavBar() {
               <div className="btn-group" style={{ position: "fixed", right: "30px" }}>
                 <button className="btn btn-primary btn-sm">
                   <a rel="noopener" href="#" className="text-decoration-none text-light">
-                    Get a Quote
+                    Talk to us
                   </a>
                 </button>
               </div>

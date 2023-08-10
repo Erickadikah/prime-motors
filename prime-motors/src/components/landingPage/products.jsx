@@ -31,8 +31,6 @@ const Products = () => {
     </div>
     <div>
       <img src={image3} alt="Car 3" width={400} height={400} style={{ display: 'block', margin: 'auto' }} />
-      {/*<h4 className='text-white'>Car Model 3</h4>*/}
-            {/*<h4 className='text-white'>Car Model 3</h4*/}
       <div style={{ textAlign: 'center'}}>
       <p className='text-white'>Year: 2023</p>
       <p className='text-white'>Mileage: 5,000 miles</p>
