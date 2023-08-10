@@ -1,8 +1,9 @@
 import React from "react";
 import "../../assets/styles/landingPage/hero.scss";
-import heroImage from "../../assets/images/landingPage/hero.jpeg";
+import heroImage from "../../assets/images/landingPage/heroImage3.jpg";
 import "bootstrap/dist/css/bootstrap.css"
-import { motion } from "framer-motion";
+import { backIn, motion } from "framer-motion";
+import { BackgroundImage } from "@mantine/core";
 
 export default function Hero() {
   const textVariants = {
@@ -34,7 +35,8 @@ export default function Hero() {
   };
 
   return (
-    <motion.div className="hero bg-black" initial="hidden" animate="visible">
+    <motion.div className="hero" initial="hidden" animate="visible"
+    >
       <div className="d-flex align-items-center justify-content-center flex-column hero-text text-light">
         <motion.div
           id="hero-text"
