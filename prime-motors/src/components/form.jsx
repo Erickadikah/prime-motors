@@ -19,9 +19,9 @@ function Form() {
   };
 
   return (
-    <section id="contactUs bg-white" style={{ background: 'red'}}>
+    <section id="contactUs bg-white">
       <h1 className="text-center text-white">Get In Touch</h1>
-      {apiResponseMessage && (
+    {/*9  {apiResponseMessage && (*/}
         <div
           className="bg-primary text-white"
           style={{
@@ -38,9 +38,9 @@ function Form() {
             fontSize: "16px",
           }}
         >
-          {apiResponseMessage}
+          {/*({apiResponseMessage}*/}
         </div>
-      )}
+        { /* )}*/}
 
       <div className="form-container container bg-white" id="auth-form">
         <form role="form" >
