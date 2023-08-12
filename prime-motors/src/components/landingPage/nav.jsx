@@ -48,10 +48,10 @@ export default function LandingNavBar() {
                   Car Accessories
                 </a>
                 <a className="dropdown-item" href="#">
-                  Back-end Development
+                  Car Servicing
                 </a>
                 <a className="dropdown-item" href="#">
-                  E-commerce Solutions
+                  Car Repair
                 </a>
               </div>
             </li>
