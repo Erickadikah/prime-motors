@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import LandingPage from './landingPage/landingPage';
-import Form from '../components/form'
+import Form from '../components/landingPage/form'
 
 const PageRouter = () => {
   return (
