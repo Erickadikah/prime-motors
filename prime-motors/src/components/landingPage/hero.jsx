@@ -57,12 +57,13 @@ export default function Hero() {
             variants={textVariants}
           >
             <p className="text-center">
-              Driven by Quality: Genuine Spare Parts and Cars, Powered by Passion.
-              <br />
-              Wide Range of Cars and Dependable Spare Parts - Carlos Automotive and Spare Parts
-              <br />
-              Drive in Today's Competitive Landscape.
-            </p>
+      Driven by Quality: Genuine Spare Parts and Cars, Powered by Passion.
+      <br />
+      Wide Range of Cars and Dependable Spare Parts - Carlos Automotive and Spare Parts
+      <br />
+      Drive in Today's Competitive Landscape.
+      We are Located off Mombasa Road
+      </p>
             <motion.button
               className="btn btn-primary"
               whileHover={{ scale: 1.05 }}
