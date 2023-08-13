@@ -1,0 +1,29 @@
+// Form.scss
+// Define SCSS variables and styles
+$form-input-height: 40px;
+$form-input-padding: 8px;
+$form-input-border: 1px solid #ccc;
+$form-input-border-radius: 4px;
+$form-input-font-size: 16px;
+$form-input-margin-bottom: 10px;
+
+// Define SCSS classes
+.form-input {
+  width: 100%;
+  height: $form-input-height;
+  padding: $form-input-padding;
+  margin-bottom: $form-input-margin-bottom;
+  border: $form-input-border;
+  border-radius: $form-input-border-radius;
+  font-size: $form-input-font-size;
+  
+  // Media query for screens with a max-width of 768px
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  // Media query for screens with a max-width of 576px
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
+}

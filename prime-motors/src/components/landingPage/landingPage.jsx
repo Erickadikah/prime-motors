@@ -13,7 +13,7 @@ const LandingPage = () => {
       <Hero />
       <OurServices />
       <Products />
-      <Form />  
+      {/*<Form /> */} 
       <PageFooter />
     </div>
   );
