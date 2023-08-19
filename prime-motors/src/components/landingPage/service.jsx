@@ -68,7 +68,7 @@ export default function OurServices() {
 
   return (
     <div style={{ paddingTop: "20px", paddingBottom: "20px", width: "95%", margin: "10px auto" }}>
-      <h3 className="text-center text-info">Our Services</h3>
+      <h3 className="text-center text-info">Business Services</h3>
       <div className="all-services">
         <Row>
           <Col md={1} className="d-flex align-items-center justify-content-center">

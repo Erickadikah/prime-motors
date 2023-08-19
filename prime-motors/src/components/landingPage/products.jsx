@@ -11,66 +11,91 @@ import Form from './form';
 const Products = () => {
   return (
    <div className='justify-center items-center' style={{ justifyContent: 'center', alignItems: 'center'}}>
-  <h1 className='text-white text-center'>What We Do</h1>
-  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px', flexWrap: 'wrap', gap: '20px', marginBottom: '30px'}}>
-    <div>
-      <img src={dockerIcon} alt="Car 1" width={300} height={300} style={{ display: 'block', margin: 'auto', borderRadius: '4px' }} />
-      <div style={{ textAlign: 'center', marginTop: '10px'}}>
-      <p className='text-white'>Year: 2012</p>
-      <p className='text-white'>Mileage: 10,000 miles</p>
-      <p className='text-white'>Price: $1.5ksh</p>
-      {/*<button className="btn btn-outline-info">Contact Us</button>*/}
-      </div>
-    </div>
-    <div>
-      <img src={image4} alt="Car 2" width={250} height={300} style={{ display: 'block', margin: 'auto',borderRadius: '4px' }} />
-      <div style={{ textAlign: 'center', marginTop: '10px'}}>
-      <p className='text-white'>Year: 2011</p>
-      <p className='text-white'>Mileage: 15,000 miles</p>
-      <p className='text-white'>Price: $700, 000ksh</p>
-      {/*<button className="btn btn-outline-info">Contact Us</button>*/}
-      </div>
-    </div>
-    <div>
-      <img src={image3} alt="Car 3" width={250} height={300} style={{ display: 'block', margin: 'auto', borderRadius: '4px' }} />
-      <div style={{ textAlign: 'center', marginTop: '10px'}}>
-      <p className='text-white'>Year: 2023</p>
-      <p className='text-white'>Mileage: 5,000 miles</p>
-      <p className='text-white'>Price: $300,000ksh</p>
-      {/*<button className="btn btn-outline-info">Contact Us</button>*/}
-      </div>
-    </div>
-    <div>
-      <img src={image2} alt="Car 3" width={300} height={300} style={{ display: 'block', margin: 'auto', borderRadius: '4px' }} />
-      <div style={{ textAlign: 'center', marginTop: '10px'}}>
-      <p className='text-white'>Tata Spareparts and accesories</p>
-      {/*<button className="btn btn-outline-info">Contact Us</button>*/}
-      </div>
-    </div>
-    <div>
-      <img src={image5} alt="Car 3" width={250} height={300} style={{ display: 'block', margin: 'auto', borderRadius: '4px' }} />
-      <div style={{ textAlign: 'center', marginTop: '10px'}}>
-      <p className='text-white'>
-      Car Services & Repair
-      </p>
-      {/*<button className="btn btn-outline-info">Contact Us</button>*/}
-      </div>
-    </div>
-    <div>
-      <img src={image6} alt="Car 3" width={300} height={300} style={{ display: 'block', margin: 'auto', borderRadius: '4px' }} />
-      <div style={{ textAlign: 'center', marginTop: '10px'}}>
-      <p className='text-white'>
-      Car Services & Repair
-      </p>
-      {/*<button className="btn btn-outline-info">Contact Us</button>*/}
-      </div>
-    </div>
-  </div>
-  <div >
+   <div>
+   <h1 className='text-white text-center'>Services </h1>
+   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px', flexWrap: 'wrap', gap: '20px', marginBottom: '30px'}}>
+     <div style={{
+   display: 'flex',
+   flexDirection: 'column', 
+   alignItems: 'center',
+   textAlign: 'center',
+ }}>
+   <img src={image3} alt="Car 3" width={450} height={320} style={{ display: 'block', margin: 'auto' }} />
+   <div style={{ 
+     width: '450px',
+     height: '220px',
+     background: '#DDE8EC',
+     display: 'flex',
+     flexDirection: 'column',
+     justifyContent: 'center',
+     alignItems: 'center'
+   }}>
+     <p className='text-center'>
+     Car sells and Repair
+     Our comprehensive range of services includes 
+     digital marketing, web development, IT consulting, and training.
+      With a mission to empower businesses and create long-lasting partnerships,
+     we aim to help our clients navigate the rapidly evolving digital 
+     landscape by leveraging cutting-edge 
+     technologies and industry best practices
+     </p>
+     <button className="btn btn-outline-info" style={{ width: '150px' }}>Read More</button>
+   </div>
+ </div>
+     <div style={{
+   display: 'flex',
+   flexDirection: 'column', 
+   alignItems: 'center',
+   textAlign: 'center'
+     }}>
+       <img src={image2} alt="Car 3" width={450} height={300} style={{ display: 'block', margin: 'auto' }} />
+       <div style={{ 
+         width: '450px',
+     height: '220px',
+     background: '#DDE8EC',
+     display: 'flex',
+     flexDirection: 'column',
+     justifyContent: 'center',
+     alignItems: 'center'
+     }}>
+     <p className='text-black text-center'>
+     Tata Spareparts and accesories
+     We specializes in providing innovative IT 
+     solutions and exceptional customer service to businesses 
+     of all sizes. Our comprehensive range of services includes 
+     digital marketing, web development, 
+     </p>
+     <button className="btn btn-outline-info" style={{ justifyContent: 'center', alignItems: 'center', display: 'flex'}}>Read More</button>
+     </div>
+     </div>
+     <div>
+       <img src={image4} alt="Car 3" width={450} height={300} style={{ display: 'block', margin: 'auto' }} />
+       <div style={{ 
+     width: '450px',
+     height: '220px',
+     background: '#DDE8EC',
+     display: 'flex',
+     flexDirection: 'column',
+     justifyContent: 'center',
+     alignItems: 'center'
+     }}>
+       <p className='text-black text-center'>
+       We specializes in providing innovative IT 
+       solutions and exceptional customer service to businesses 
+       of all sizes. Our comprehensive range of services includes 
+       digital marketing, web development, 
+       </p>
+       <button className="btn btn-outline-info" style={{ justifyContent: 'center', alignItems: 'center', display: 'flex'}}>Read More</button>
+       </div>
+     </div>
+     </div>
+   </div>
+  <div>
   <Form />
   </div>
 </div>
   );
 }
+
 
 export default Products;

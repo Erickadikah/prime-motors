@@ -5,10 +5,10 @@ function Form() {
     <div
       style={{
         display: 'flex',
-        flexDirection: 'column',  // Align children vertically
-        justifyContent: 'center',  // Center vertically
-        alignItems: 'center',  // Center horizontally
-        height: '80vh',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '70vh',
         background: '#111827',
       }}
     >
@@ -16,6 +16,7 @@ function Form() {
         style={{
           width: '400px',
           textAlign: 'center',
+          padding: '35px'
         }}
       >
         <h1 className='text-white text-center'>Contact Us</h1>
@@ -61,20 +62,11 @@ function Form() {
             fontSize: '16px',
           }}
         />
+        <div style={{
+          marginTop: '20px'
+        }}>
         <button className='btn btn-outline-info'>Submit</button>
-      </div>
-      <div
-        style={{
-          width: '400px',  // Match the width of the "Contact Us" form
-          marginTop: '30px',
-          textAlign: 'center',
-        }}
-      >
-        <h1 className='text-white'>Create a Custom Package</h1>
-        <p className='text-white'>
-          Didn't find what you need? Don't fret. We are always open for tweaks and suggestions.
-        </p>
-        <button className='btn btn-outline-info'>Start Now</button>
+        </div>
       </div>
     </div>
   );
